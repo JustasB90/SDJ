@@ -1,0 +1,9 @@
+//tests Name class
+public class NameTest
+{
+   public static void main(String[] args)
+   {
+      Name first = new Name("Chuck Norris TheThird");
+      System.out.println(first);
+   }
+}
