@@ -1,9 +1,0 @@
-//tests Name class
-public class NameTest
-{
-   public static void main(String[] args)
-   {
-      Name person = new Name("Chuck Norris");
-      System.out.print(person);
-   }
-}
