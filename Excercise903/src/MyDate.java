@@ -1,4 +1,6 @@
 //Excercise 903 
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 public class MyDate
 {
    private int month, day, year;
@@ -9,6 +11,15 @@ public class MyDate
    {
       this.setDate(day, month, year);
 
+   }
+   public MyDate()
+   {
+      Calendar now= GregorianCalendar.getInstance();
+      
+      this.day=now.get(Calendar.DAY_OF_MONTH);
+      this.month=(now.get(Calendar.MONTH)+1);
+      this.year=now.get(Calendar.YEAR);
+      
    }
 
    // GETTERS
