@@ -12,5 +12,7 @@ public class TestLine
       System.out.println(p1);
       System.out.println(line1.getSlope());
       System.out.println(line1.getSlopeIntercept());
+      System.out.println(p1.getX());
+      System.out.println(p1.equals(p1));
    }
 }

@@ -32,8 +32,7 @@ public class Point
    
    public Point copy()
    {
-      Point copyPoint= new Point(x,y);
-      return copyPoint;
+      return new Point(x,y);
    }
    
    public String toString()

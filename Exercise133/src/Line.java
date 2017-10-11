@@ -6,15 +6,15 @@ public class Line
 
    public Line(Point pointA, Point pointB, String color)
    {
-      this.pointA = pointA;
-      this.pointB = pointB;
+      this.pointA = pointA.copy();
+      this.pointB = pointB.copy();
       this.color = color;
    }
 
    public Line(Point pointA, Point pointB)
    {
-      this.pointA = pointA;
-      this.pointB = pointB;
+      this.pointA = pointA.copy();
+      this.pointB = pointB.copy();
       this.color = "Black";
    }
 
