@@ -36,7 +36,7 @@ public class Order
       {
          double unitPrice=totalOrders.get(i).getPrice();
          int unitCount=totalOrders.get(i).getAmount();
-          totalPrice=+unitPrice*unitCount;
+          totalPrice=totalPrice+unitPrice*unitCount;
          
       }
       return totalPrice;
